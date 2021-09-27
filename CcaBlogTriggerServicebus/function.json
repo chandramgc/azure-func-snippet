@@ -1,0 +1,21 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "blobIn",
+      "type": "blobTrigger",
+      "dataType": "binary",
+      "direction": "in",
+      "path": "cca-edi-upload/{name}",
+      "connection": "arthaccapoc_STORAGE"
+    },
+    {
+      "type": "serviceBus",
+      "direction": "out",
+      "connection": "blobtriggertest101_ServiceBus",
+      "name": "msgOut",
+      "queueName": "cca-edi-topic"
+    }
+  ],
+  "disabled": false
+}

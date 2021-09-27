@@ -1,0 +1,316 @@
+{
+  "ISA": {
+    "0": {
+      "Name": "ISA EDI Header",
+      "Value": "isa_edi_header"
+    },
+    "1": {
+      "Name": "Authorization Qualifier",
+      "Value": "authorization_qualifier",
+      "Options": {
+        "00": "No authorization"
+      },
+      "Default": ""
+    },
+    "2": {
+      "Name": "Authorization Information",
+      "Value": "authorization_information",
+      "Options": {
+        "00": "No authorization"
+      },
+      "Default": ""
+    },
+    "3": {
+      "Name": "Security Qualifier",
+      "Value": "security_qualifier",
+      "Options": {
+        "00": "No security information"
+      },
+      "Default": ""
+    },
+    "4": {
+      "Name": "Security Information",
+      "Value": "security_information",
+      "Options": {
+        "00": "No security information"
+      },
+      "Default": ""
+    },
+    "5": {
+      "Name": "Sender Qualifier",
+      "Value": "sender_qualifier",
+      "Default": "ZZ"
+    },
+    "6": {
+      "Name": "Sender Identifier",
+      "Value": "sender_identifier",
+      "Default": ""
+    },
+    "7": {
+      "Name": "Receiver Qualifier",
+      "Value": "receiver_qualifier",
+      "Default": "01"
+    },
+    "8": {
+      "Name": "Receiver Identifier",
+      "Value": "receiver_identifier",
+      "Default": ""
+    },
+    "9": {
+      "Name": "Interchange Date",
+      "Value": "interchange_date"
+    },
+    "10": {
+      "Name": "Interchange Time",
+      "Value": "interchange_time"
+    },
+    "11": {
+      "Name": "Standard Identifier",
+      "Value": "standard_identifier",
+      "Default": "U"
+    },
+    "12": {
+      "Name": "Control Version",
+      "Value": "control_version",
+      "Default": "00401"
+    },
+    "13": {
+      "Name": "Interchange Control Number",
+      "Value": "interchange_control_number",
+      "Default": "30"
+    },
+    "14": {
+      "Name": "Acknowledgement Requested",
+      "Value": "acknowledgement_requested",
+      "Default": "0"
+    },
+    "15": {
+      "Name": "Usage Indicator",
+      "Value": "usage_indicator",
+      "Options": {
+        "T": "Test",
+        "P": "Production"
+      },
+      "Default": "T"
+    },
+    "16": {
+      "Name": "Component Element Separator",
+      "Value": "component_element_separator"
+    }
+  },
+  "ST": {
+    "0": {
+      "Name": "ST EDI Header",
+      "Value": "st_edi_header"
+    },
+    "1":{
+      "Name": "Transaction Set ID",
+      "Value": "transaction_set_id"
+    },
+    "2": {
+      "Name": "Transaction Set Control Number"
+      "Value": "transaction_set_control_number"
+    }
+  },
+  "BIG":{
+    "0": {
+      "Name": "BIG EDI Header",
+      "Value": "big_edi_header"
+    },
+    "1":{
+      "Name": "Invoice Date",
+      "Value": "invoice_date"
+    },
+    "2":{
+      "Name": "Invoice Number",
+      "Value": "invoice_number"
+    },
+    "3":{
+      "Name": "Purchase Order Date",
+      "Value": "purchase_order_date"
+    },
+    "4":{
+      "Name": "Purchase Order Number"
+      "Value": "purchase_order_number"
+    },
+    "5":{
+      "Name": "Invoice Origin"
+      "Value": "invoice_origin"
+    }
+  },
+  "REF":{
+    "0":{
+      "Name": "Ref EDI Header",
+      "Value": "ref_edi_Header"
+    },
+    "1":{
+      "Name": "Reference Identification Qualifier",
+      "Value": "reference_identification_qualifier"
+    },
+    "2":{
+      "Name": "Reference Identification",
+      "Value": "reference_identification"
+    },
+    "3":{
+      "Name": "Description",
+      "Value": "reference_description"
+    }
+  },
+  "N1":{
+    "0":{
+      "Name": "N1 EDI Header",
+      "Value": "n1_edi_Header"
+    },
+    "1":{
+      "Name": "Entity ID Code",
+      "Value": "entity_id_code"
+    },
+    "2":{
+      "Name": "ID Code Qualifier",
+      "Value": "id_code_qualifier"
+    },
+    "3":{
+      "Name": "ID Code",
+      "Value": "id_code"
+    }
+  },
+  "DTM":{
+    "0":{
+      "Name": "DTM EDI Header",
+      "Value": "dtm_edi_Header"
+    },
+    "1":{
+      "Name": "Date/Time Qualifier",
+      "Value": "datetime_qualifier"
+    },
+    "2":{
+      "Name": "Date",
+      "Value": "date"
+    }
+  },
+  "IT1":{
+    "0":{
+      "Name": "IT1 EDI Header",
+      "Value": "it1_edi_Header"
+    }
+  },
+  "PID":{
+    "0":{
+      "Name": "PID EDI Header",
+      "Value": "pid_edi_Header"
+    },
+    "1":{
+      "Name": "Item Description Type",
+      "Value": "item_description_type"
+    },
+    "2":{
+      "Name": "Description",
+      "Value": "description"
+    }
+  },
+  "DTM":{
+    "0":{
+      "Name": "DTM EDI Header",
+      "Value": "dtm_edi_Header"
+    },
+    "1":{
+      "Name": "Date/Time Qualifier ",
+      "Value": "dtm_date_time_qualifier"
+    },
+    "2":{
+      "Name": "Date",
+      "Value": "dtm_date"
+    }
+  },
+  "DTM_2":{
+    "0":{
+      "Name": "DTM 2 EDI Header",
+      "Value": "dtm2_edi_Header"
+    },
+    "1":{
+      "Name": "Date/Time Qualifier",
+      "Value": "dtm2_date_time_qualifier"
+    },
+    "2":{
+      "Name": "Date",
+      "Value": "dtm2_date"
+    }
+  },
+  "TDS":{
+    "0":{
+      "Name": "TDS EDI Header",
+      "Value": "tds_edi_Header"
+    },
+    "1":{
+      "Name": "Total Invoice Amount",
+      "Value": "total_invoice_amount"
+    }
+  },
+  "SAC":{
+    "0":{
+      "Name": "SAC EDI Header",
+      "Value": "sac_edi_Header"
+    },
+    "1":{
+      "Name": "Allowance Charge Ind",
+      "Value": "allowance_charge_ind"
+    },
+    "2":{
+      "Name": "Special Service Code",
+      "Value": "special_service_code",
+      "Options": {
+        "G821": "Shipping",
+        "H200": "Other"
+      }
+    },
+    "3":{
+      "Name": "Allowance or Charge Amt",
+      "Value": "allowance_or_charge_amt"
+    }
+  },
+  "TXI":{
+    "0":{
+      "Name": "TXI EDI Header",
+      "Value": "txi_edi_Header"
+    },
+    "1":{
+      "Name": "Tax Type Code",
+      "Value": "tax_type_code",
+      "Options": {
+        "ST": "State Sales Tax"
+      }
+    },
+    "2":{
+      "Name": "Monetary Amount",
+      "Value": "monetary_amount",
+    },
+    "3":{
+      "Name": "Percent",
+      "Value": "percent"
+    }
+  },
+  "CTT":{
+    "0":{
+      "Name": "CTT EDI Header",
+      "Value": "ctt_edi_Header"
+    },
+    "1":{
+      "Name": "Number of Line Items",
+      "Value": "number_of_line_items"
+    }
+  },
+  "SE":{
+    "0":{
+      "Name": "SE EDI Header",
+      "Value": "se_edi_Header"
+    },
+    "1":{
+      "Name": "Number of Included Segments",
+      "Value": "number_of_included_segments"
+    },
+    "2":{
+      "Name": "Transaction Set Control Number",
+      "Value": "transaction_set_control_number"
+    }
+  }
+}

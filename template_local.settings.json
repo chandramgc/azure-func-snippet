@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "blobtriggertest101_SERVICEBUS": "",
+    "blobtriggerupload_STORAGE": "",
+    "arthaccapoc_STORAGE": "",
+    "AzureWebJobs.ServicebusTopicTrigger.Disabled": "",
+    "AzureWebJobs.CcaFileProcessingServicebusTrigger.Disabled": "",
+    "arthaccapoc2_STORAGE": ""
+  }
+}
