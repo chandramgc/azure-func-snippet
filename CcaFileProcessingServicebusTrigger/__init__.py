@@ -6,6 +6,7 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContentSettings, C
 from datetime import datetime
 import os
 import uuid
+import tempfile
 
 def build_current_node(elements: str, conf: str):
     data = {}
@@ -99,7 +100,7 @@ def main(message: func.ServiceBusMessage):
 
             # Create a local directory to hold blob data
             
-            local_path = "./data"
+            local_path = tempfile.gettempdir()
             isdir = os.path.isdir(local_path)
             if not isdir:
                 os.mkdir(local_path)
