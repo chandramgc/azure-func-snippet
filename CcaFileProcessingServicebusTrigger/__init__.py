@@ -81,6 +81,7 @@ def main(message: func.ServiceBusMessage):
             config_body = json.loads(download_stream.readall().decode('utf-8'))
             #print(config_body)
             payload = convert_edi_data_2_json(message_body,config_body)
+            print(payload)
             payload_csv = convert_json_2_csv(payload,config_body)
             #print(payload_csv.to_markdown())
             local_file_name = str(uuid.uuid4()) + ".txt"
